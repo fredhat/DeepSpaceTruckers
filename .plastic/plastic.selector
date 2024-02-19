@@ -1,0 +1,4 @@
+repository "DeepSpaceTruckers@FSosin@cloud"
+  path "/"
+    br "/main"
+    co "/main"

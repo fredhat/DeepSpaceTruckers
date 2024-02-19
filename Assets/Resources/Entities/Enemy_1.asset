@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29e734d7861345542a20eb25f3d5c64d, type: 3}
+  m_Name: Enemy_1
+  m_EditorClassIdentifier: 
+  _stats:
+    Health:
+      v: 30
+      hasValue: 1
+    Armor:
+      v: 0
+      hasValue: 0
+    MaxSpeed:
+      v: 15
+      hasValue: 1
+    AccMult:
+      v: 2
+      hasValue: 1
+    ShotDamage:
+      v: 4
+      hasValue: 1
+    ShotRate:
+      v: 1
+      hasValue: 1
+    ShotSpeed:
+      v: 1
+      hasValue: 1
+    PointValue:
+      v: 20
+      hasValue: 1
+    ContactDamage:
+      v: 5
+      hasValue: 1
+    AbsorbedDamage:
+      v: 0
+      hasValue: 0
+    RegenRate:
+      v: 0
+      hasValue: 0
+    Lifetime:
+      v: 0
+      hasValue: 0
+    IsInvincible: 0
+    WhenShootSound: {fileID: 0}
+    WhenDieSound: {fileID: 8300000, guid: 4ef499a880d36b440aad5e332b1a4fa4, type: 3}
+    WhenHitSound: {fileID: 8300000, guid: 49f90e79e14914243afb18aad6b62804, type: 3}
+    WhenAbsorbSound: {fileID: 8300000, guid: a3d3ff75c3accfb41870a92265fbe5df, type: 3}
+    Color: 2
+    Faction: 2
+    ItemList:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  ET: 3
+  Prefab: {fileID: 6794969468171774566, guid: 308929c6767d55344a05af87f84c4a19, type: 3}
